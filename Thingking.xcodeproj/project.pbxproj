@@ -8,22 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		D9051861208DDC49005A4E44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9051860208DDC49005A4E44 /* AppDelegate.swift */; };
-		D9051863208DDC49005A4E44 /* SWRevealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9051862208DDC49005A4E44 /* SWRevealViewController.swift */; };
 		D9051866208DDC49005A4E44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9051864208DDC49005A4E44 /* Main.storyboard */; };
 		D9051869208DDC49005A4E44 /* Thingking.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D9051867208DDC49005A4E44 /* Thingking.xcdatamodeld */; };
 		D905186B208DDC4B005A4E44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D905186A208DDC4B005A4E44 /* Assets.xcassets */; };
 		D905186E208DDC4B005A4E44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D905186C208DDC4B005A4E44 /* LaunchScreen.storyboard */; };
+		D93B2267209830E600C14D0F /* RearViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B2264209830E500C14D0F /* RearViewCell.swift */; };
+		D93B2268209830E600C14D0F /* FrontViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B2265209830E500C14D0F /* FrontViewController.swift */; };
+		D93B2269209830E600C14D0F /* RearViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93B2266209830E600C14D0F /* RearViewController.swift */; };
+		D93B226E2098314800C14D0F /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D93B226C2098314800C14D0F /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D905185D208DDC49005A4E44 /* Thingking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Thingking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9051860208DDC49005A4E44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D9051862208DDC49005A4E44 /* SWRevealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SWRevealViewController.swift; sourceTree = "<group>"; };
 		D9051865208DDC49005A4E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D9051868208DDC49005A4E44 /* Thingking.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Thingking.xcdatamodel; sourceTree = "<group>"; };
 		D905186A208DDC4B005A4E44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D905186D208DDC4B005A4E44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D905186F208DDC4B005A4E44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93B2264209830E500C14D0F /* RearViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RearViewCell.swift; sourceTree = "<group>"; };
+		D93B2265209830E500C14D0F /* FrontViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrontViewController.swift; sourceTree = "<group>"; };
+		D93B2266209830E600C14D0F /* RearViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RearViewController.swift; sourceTree = "<group>"; };
+		D93B226B2098314600C14D0F /* Thingking-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Thingking-Bridging-Header.h"; sourceTree = "<group>"; };
+		D93B226C2098314800C14D0F /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		D93B226D2098314800C14D0F /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +64,10 @@
 		D905185F208DDC49005A4E44 /* Thingking */ = {
 			isa = PBXGroup;
 			children = (
-				D9051860208DDC49005A4E44 /* AppDelegate.swift */,
-				D9051862208DDC49005A4E44 /* SWRevealViewController.swift */,
+				D93B226D2098314800C14D0F /* SWRevealViewController.h */,
+				D93B226C2098314800C14D0F /* SWRevealViewController.m */,
+				D93B226B2098314600C14D0F /* Thingking-Bridging-Header.h */,
+				D93B226A209830EF00C14D0F /* Controller */,
 				D9051864208DDC49005A4E44 /* Main.storyboard */,
 				D905186A208DDC4B005A4E44 /* Assets.xcassets */,
 				D905186C208DDC4B005A4E44 /* LaunchScreen.storyboard */,
@@ -65,6 +75,18 @@
 				D9051867208DDC49005A4E44 /* Thingking.xcdatamodeld */,
 			);
 			path = Thingking;
+			sourceTree = "<group>";
+		};
+		D93B226A209830EF00C14D0F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D9051860208DDC49005A4E44 /* AppDelegate.swift */,
+				D93B2265209830E500C14D0F /* FrontViewController.swift */,
+				D93B2264209830E500C14D0F /* RearViewCell.swift */,
+				D93B2266209830E600C14D0F /* RearViewController.swift */,
+			);
+			name = Controller;
+			path = ViewController/Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -99,6 +121,7 @@
 				TargetAttributes = {
 					D905185C208DDC49005A4E44 = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
 					};
 				};
 			};
@@ -138,8 +161,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D9051863208DDC49005A4E44 /* SWRevealViewController.swift in Sources */,
+				D93B226E2098314800C14D0F /* SWRevealViewController.m in Sources */,
+				D93B2269209830E600C14D0F /* RearViewController.swift in Sources */,
 				D9051869208DDC49005A4E44 /* Thingking.xcdatamodeld in Sources */,
+				D93B2268209830E600C14D0F /* FrontViewController.swift in Sources */,
+				D93B2267209830E600C14D0F /* RearViewCell.swift in Sources */,
 				D9051861208DDC49005A4E44 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -284,6 +310,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Thingking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -292,6 +319,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nukistudio.Thingking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Thingking/Thingking-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -301,6 +330,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = Thingking/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +339,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nukistudio.Thingking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Thingking/Thingking-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
