@@ -10,10 +10,16 @@ import UIKit
 
 class FrontViewController: UIViewController {
 
-    @IBOutlet var btnSideMenu: UIBarButtonItem!
+    @IBOutlet var btnSideList: UIBarButtonItem!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        if let revealVC = self.revealViewController() {
+            self.btnSideList.target = revealVC
+            self.btnSideList.action = #selector(revealVC.revealToggle(_:))
+            
+        }
 
         // Do any additional setup after loading the view.
     }

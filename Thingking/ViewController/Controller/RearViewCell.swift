@@ -10,6 +10,7 @@ import UIKit
 
 class RearViewCell: UITableViewCell {
 
+    @IBOutlet var menuName: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
